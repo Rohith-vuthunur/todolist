@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D" type="image/icon"> 
+    <title>Todolist</title>
+    <link rel="stylesheet" href="todo.css">
+
+</head>
+<body>
+    <div class="parent">
+        <h2>TO DO LIST </h2>
+    </div>
+    <div class="list">
+        <h3>Add Your Work Here</h3>
+    <div class="add">
+     <form onsubmit="adding()">
+        <input type="text" id="data" required><input type="submit" value="Add" id="add">
+        </form>
+        
+        </div>
+        <ol id="ordered-list">
+        </ol>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
